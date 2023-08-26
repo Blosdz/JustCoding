@@ -1,0 +1,12 @@
+.box{
+    display: flex;
+}
+
+
+.lil-boxes{
+    margin: 20px 20px;
+
+    height: 330px;    
+    width: 200px;
+
+}
