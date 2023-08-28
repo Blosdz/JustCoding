@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+:root{
+    --line-border-fill:#3498db;
+    --line-border-empty:#383838;
+}
 
 body{
     display: flex;
@@ -7,4 +13,23 @@ body{
 }
 .progress{
     display: flex;
+}
+
+.circle{
+    border-color: black;
+    border: solid;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.line{
+    padding: 10px;
+}
+
+.circle.active{
+    border-color: #3498db;
+    border: solid;
+    border-radius: 100%;
+    transition: ease-in;
+    
 }
